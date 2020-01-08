@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { AdoptionComponent } from './adoption/adoption.component';
 import { ShelterComponent } from './shelter/shelter.component';
 import { LoginComponent } from './login/login.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { LoginComponent } from './login/login.component';
     AdoptionComponent,
     ShelterComponent,
     LoginComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,

@@ -7,15 +7,10 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 const routes: Routes = [
-  // path for default
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  // path for home
   { path: 'home', component: HomeComponent },
-  // path for adoption page
   { path: 'adoption', component: AdoptionComponent},
-  // path for shelter page
   { path: 'shelter', component: ShelterComponent },
-  // path for login page
   { path: 'login', component: LoginComponent }
 ];
 
